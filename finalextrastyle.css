@@ -11,14 +11,14 @@ section, article {
 	 color: #ffffff;
 	 font-family: "Antic Slab", "cursive";
 	 text-align: center;
-	 height: 300px;
+	 height: 500px;
 }
 
 body {
 background: #f9f9f9;
 }
 
-header .logo img.retina {
+header .logo img{
 display: none;
 }
 
@@ -48,7 +48,7 @@ header {
 position: relative;
 z-index: 99;
 background: #f7f7f7;
-padding: 16px 0 20px 0;
+padding: 16px 20px 20px 20px;
 border-bottom: 1px solid #eaeaea;
 }
 
@@ -95,7 +95,7 @@ padding: 0;
 
 
 header nav ul li a {
-padding: 20px 0 18px 0;
+padding: 20px 20px 18px 20px;
 text-decoration: none;
 }
 

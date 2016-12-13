@@ -18,7 +18,7 @@ body {
 background: #f9f9f9;
 }
 
-header .logo img{
+header {
 display: none;
 }
 
@@ -26,7 +26,7 @@ article ul, article ol {
 margin-bottom: 28px; 
 }
 
-article .commentlist ul, .commentlist  ol.commentlist {
+.commentlist ul, .commentlist  ol.commentlist {
 margin-bottom: 0;
 }
 

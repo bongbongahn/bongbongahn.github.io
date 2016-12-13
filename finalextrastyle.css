@@ -1,192 +1,66 @@
 @charset "utf-8";
 /* CSS Document */
+
 @import url('https://fonts.googleapis.com/css?family=Antic+Slab');
-
-nav {
-	display: block;
-}
-
-section, article {
-	 background: #65beb4;
-	 color: #ffffff;
-	 font-family: "Antic Slab", "cursive";
-	 text-align: center;
-	 height: 500px;
-}
-
 body {
-background: #f9f9f9;
+	background: #f9f9f9;
+	font: 14px/1.7 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: #484545;
 }
-
-header .logo {
-display: none;
-}
-
-article ul, article ol { 
-margin-bottom: 28px; 
-}
-
-.commentlist ul, .commentlist  ol.commentlist {
-margin-bottom: 0;
-}
-
-p {
-margin-bottom: 15px;
-}
-
-header,
-section,
-article,
-footer,
-header .header {
-float: left;
-width: 100%;
-}
-
-
 header {
-position: relative;
-z-index: 99;
-background: #f7f7f7;
-padding: 16px 20px 20px 20px;
-border-bottom: 1px solid #eaeaea;
+	background: #f7f7f7;
+	display: none;
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 99;
+	padding: 16px 20px 20px 20px;
+	border-bottom: 1px solid #eaeaea;
 }
-
-span.site-title {
-width: auto;
-display: inline-block;
-padding: 10px 0;
+header .leftheader {
+	float: left;
+	position: relative;
+	width: auto;
+	display: inline-block;
+	padding: 10px 0;
 }
-
-header .logo {
-float: left;
-position: relative;
+header .leftheader img {
+	margin-right: 10px;
 }
-
-header .logo img {
-margin-right: 10px;
-}
-
 header nav {
-float: right;
-padding: 20px 0 12px 0;
+	float: right;
+	padding: 20px 0 12px 0;
 }
-
 header nav ul {
-float: right;
+	float: right;
 }
-
 header a.btn {
-margin-top: 10px;
-margin-left: 20px;
-float: right;
+	margin-top: 10px;
+	margin-left: 20px;
+	float: right;
 }
-
-header.fixed {
-position: fixed;
-z-index: 99;
+header fixed {
+	position: fixed;
+	z-index: 99;
 }
-
 header nav ul li {
-display: inline;
-margin: 0 0 0 20px;
-padding: 0;
+	display: inline;
+	margin: 0 0 0 20px;
+	padding: 0;
 }
-
-
 header nav ul li a {
-padding: 20px 20px 18px 20px;
-text-decoration: none;
+	padding: 20px 20px 18px 20px;
+	text-decoration: none;
+	color: #484545;
 }
-
 header nav ul li a:hover {
-color: #cb5211;
-text-decoration: none;
+	color: #cb5211;
+	text-decoration: none;
 }
-
-header nav ul li ul li a:hover {
-text-decoration: underline;
+header, nav, .portfolio, .abouteesol, .getintouch {
+	font-family: "Antic Slab", "cursive";
 }
-
-header nav .wrapper {
-text-align: center;
-}
-
-.home-portfolio {
-float: left;
-width: 100%;
-margin: 0;
-}
-
-
-body {
-font: 14px/1.7 'Lato', Helvetica, Arial, sans-serif;
-font-weight: 400;
-color: #484545;
-}
-
-a {
-color: #cb5211;
-text-decoration: none;
--o-transition: color 0.25s ease-in;
--webkit-transition: color 0.25s ease-in;
--moz-transition: color 0.25s ease-in;
-transition: color 0.25s ease-in;
-}
-
-a:hover, 
-.sidebar li.current_page_item a {
-color: #333;
-text-decoration: underline;
--o-transition: color 0.25s ease-in;
--webkit-transition: color 0.25s ease-in;
--moz-transition: color 0.25s ease-in;
-transition: color 0.25s ease-in;
-}
-
-header nav ul li a {
-color: #484545;
-}
-
-header nav ul li ul li a, header nav ul li ul li a:hover {
-color: #fff;
-}
-
-.site-title a {
-font-size: 40px;
-line-height: 1.2;
-color: #333;
-text-decoration: none;
-margin-bottom: 25px;
-}
-
-header nav, header nav ul li ul li a { font-size: 16px; }
-body, html.blocked body { background: #ffffff; }
-html.blocked #content-wrapper { background: #ffffff; }
-
-header, nav,
-.portfolio, .abouteesol, .getintouch {
-font-family: "Antic Slab", "cursive";}
-
 header, nav, ul, footer {
-background: #ffffff;
-}
-
-p {
-display: block;
-font-family: "Antic Slab", cursive;
-font-size: 48px;
-font-weight: 300;
-height: 114px;
-margin-bottom: 100px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-text-align: center;
-text-shadow: none;
-text-size-adjust: 100%;
-width: 1100px;
--webkit-margin-after: 40px;
--webkit-margin-before: 0px;
--webkit-margin-end: 0px;
+	background: #ffffff;
 }
